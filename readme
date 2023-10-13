@@ -1,0 +1,27 @@
+Hibernate crud web appplication using MVC pattern, servlet, controller, factory, singleton
+DAO,DTO,Connection pool
+
+Tested on java 17 and tomcat 9.0.71
+
+remember to edit src/main/java/in/rahul/util/HibernateUtil.java to put suitable values
+
+keep the table ready or let hibernate create it 
+
+ create table Student (
+       sid integer not null auto_increment,
+        saddress varchar(255),
+        sage integer,
+        sname varchar(255),
+        primary key (sid)
+    );
+
+dependencies:
+	servlet-api
+	HikariCP
+	mysql-connector-j
+	slf4j-api
+	slf4j-simple
+	taglibs-standard-impl
+	taglibs-standard-spec
+	
+
